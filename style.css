@@ -18,8 +18,8 @@
     url(../images/connormcgregor.png);
   background-position: center;
   background-size: cover;
-  position: relative;
-  margin-bottom: -7rem;
+  position: absolute;
+  margin-bottom: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
