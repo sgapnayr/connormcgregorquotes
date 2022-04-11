@@ -30,16 +30,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -rem;
 }
 .title {
   width: 50%;
+  height: 5rem;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  transform: translateY(100%);
+  padding: 1rem;
+  transform: translateY(-110%);
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+.desc {
+  width: 50%;
+  height: 10rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 1rem;
+  transform: translateY(125%);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+  opacity: 0.5;
 }
 
 /* Quote */
@@ -52,8 +68,8 @@
   align-items: center;
   color: white;
   padding: 1rem;
-  transform: translateY(-100%);
-  opacity: 0.8;
+  transform: translateY(0%);
+  opacity: 0.7;
   font-style: italic;
 }
 
@@ -77,8 +93,11 @@
   cursor: pointer;
   color: white;
   transition: 0.2s ease-in-out all;
+  position: absolute;
+  transform: translateY(250%);
 }
 #button:hover {
   transform: scale(1.05);
   box-shadow: 1px 1px 10px rgba(194, 194, 194, 0.7);
+  transform: translateY(240%);
 }
